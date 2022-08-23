@@ -1,8 +1,8 @@
 import React from 'react';
-import { styled } from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.div`
-    width: calc(100% -32px);
+    width: calc(100% - 32px);
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -12,8 +12,8 @@ const Wrapper = styled.div`
     border-radius: 8px;
     cursor: pointer;
     background: white;
-    :hover{
-        background: lightgray;
+    :hover {
+        background: lightgrey;
     }
 `;
 
