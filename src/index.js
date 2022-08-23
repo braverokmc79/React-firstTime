@@ -12,6 +12,7 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +26,8 @@ root.render(
     {/* <ConfirmButton /> */}
     {/* <LandingPage /> */}
     {/* <AttendanceBook /> */}
-    <SignUp />
+    {/* <SignUp /> */}
+    <Calculator />
   </React.StrictMode>
 );
 
